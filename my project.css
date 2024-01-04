@@ -11,6 +11,7 @@
     height: 100vh;
     background-position: bottom center;
     background-size: cover;
+    clip-path: polygon(54% 1%, 100% 0, 100% 72%, 50% 100%, 0% 75%, 0 0);
 }
 .hero h1{
     text-align: center;
@@ -29,8 +30,9 @@
     background-color: rgb(125, 204, 178);
     padding: 30px;
     border: 10px solid blueviolet;
+    background: linear-gradient(45deg,rgb(243, 35, 233), rgb(247, 95, 36));
 }
-.article h2{
+.article h2,#mau h2{
     text-align: center;
     border-bottom: 2px solid red;
    padding-bottom: 10px;
@@ -42,4 +44,14 @@
 .article p{
     font-size: 28px;
     line-height: 2em;
+}
+
+img{
+    height: 300px;
+    width: 400px;
+    margin: 25px;
+   
+}
+.catimg{
+    background: linear-gradient(45deg,rgb(17, 167, 226), rgb(46, 240, 110));
 }
